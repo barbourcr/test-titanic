@@ -3,7 +3,6 @@ import numpy as np
 import pickle
 from sqlalchemy import create_engine
 from statsmodels.formula.api import glm
-import statsmodels.api as sm
 import os
 
 ## Extract Titanic Data

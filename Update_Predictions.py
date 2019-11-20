@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from sqlalchemy import create_engine
-from sklearn.ensemble import RandomForestClassifier
+from statsmodels.formula.api import glm
 import psycopg2 
 import itertools
 import os
