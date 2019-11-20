@@ -70,7 +70,7 @@ def Predict_Propensity(dataset):
    
     ## Predict 
     Predicted_Output = mod.predict(dat).to_list()
-    Predicted_Output = np.array([1]*len(Predicted_Output)) - Predicted_Output
+    Predicted_Output = np.array([100]*len(Predicted_Output))*(np.array([1]*len(Predicted_Output)) - Predicted_Output)
     Prop_Predict_List = list(zip(Predicted_Output,SF_Id))
     
     return Prop_Predict_List
