@@ -1,5 +1,5 @@
 pandas
-nump
+numpy
 pickle
 sqlalchemy
 psycopg2
