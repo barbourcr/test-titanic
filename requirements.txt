@@ -1,0 +1,8 @@
+pandas
+nump
+pickle
+sqlalchemy
+psycopg2
+itertools
+os
+statsmodels
