@@ -1,6 +1,5 @@
 pandas
 numpy
-pickle
 sqlalchemy
 psycopg2
 itertools
