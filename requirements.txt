@@ -2,6 +2,5 @@ pandas
 numpy
 sqlalchemy
 psycopg2
-itertools
 os
 statsmodels
